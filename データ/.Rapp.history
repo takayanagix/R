@@ -1,0 +1,28 @@
+2+5
+2+3
+3+4
+4+5
+3+4#
+4+5
+2+3#
+3+4#
+4+5
+5+6
+z <-c(11: 20)#
+z#
+z[4]#
+z[5 : 10]#
+z[c(2, 4, 8)]
+getwd()
+getwd()
+x <- read.csv("練習.csv",header=TRUE,fileEncoding="CP932")
+x <- read.csv("練習.csv",header=TRUE,fileEncoding="UTF-8")
+x
+x <- read.csv("練習.csv",header=TRUE,fileEncoding="UTF-8")#
+x
+x <- read.csv("練習.csv",header=FALSE,fileEncoding="UTF-8")#
+x
+x <- read.csv("練習.csv",header=FALSE,fileEncoding="UTF-8")#
+x
+x <- read.csv("練習.csv",header=TRUE,fileEncoding="UTF-8")#
+x
