@@ -14,7 +14,6 @@ z[4]#
 z[5 : 10]#
 z[c(2, 4, 8)]
 getwd()
-getwd()
 x <- read.csv("練習.csv",header=TRUE,fileEncoding="CP932")
 x <- read.csv("練習.csv",header=TRUE,fileEncoding="UTF-8")
 x
@@ -22,7 +21,45 @@ x <- read.csv("練習.csv",header=TRUE,fileEncoding="UTF-8")#
 x
 x <- read.csv("練習.csv",header=FALSE,fileEncoding="UTF-8")#
 x
-x <- read.csv("練習.csv",header=FALSE,fileEncoding="UTF-8")#
-x
 x <- read.csv("練習.csv",header=TRUE,fileEncoding="UTF-8")#
 x
+getwd()
+x <- read.csv("練習.csv",header=TRUE,fileEncoding="UTF-8")#
+x
+head(x)
+head(x,3)
+tail(x)
+tail(x,3)
+colnames(x)
+ncol(x)
+nrow(x)
+x$年齢
+x[3,3]
+x[2, ]
+x[ ,3]
+x[3]
+x[3,3:5]
+x[2:4, ]
+x[ ,3:5]
+x[3:5]
+x[3]
+colnames(x)
+x[c("年齢" "b1"   "b2")]
+x[c("年齢","b1","b2")]
+v <- colnames(x)
+x[v]
+v <- colnames(3:5)
+x[v]
+v <- colnames("年齢","b1","b2")
+colnames(x)
+v <- c("年齢","b1","b2")
+x[v]
+v <- c("no","性別","年齢","b1","b2","b3","b4","b5")
+x[v]
+v1 <- c("年齢","b1","b2",)
+v2 <- c("b1","b2","b3","b4","b5")
+v1 <- c("年齢","b1","b2")
+x[v1]
+x[v2]
+x2 <- x[v2]
+x2
