@@ -27,3 +27,28 @@ x[v2]
 
 x2 <- x[v2]
 x2
+
+min(x$年齢)
+min(x[3])
+max(x$b1, na.rm=TRUE)
+mean(x$年齢)
+sd(x$年齢)
+colMeans(x[2:7],na.rm=TRUE)
+
+sapply(x[2:8],min,na.rm=TRUE)
+sapply(x[2:8],max,na.rm=TRUE)
+sapply(x[2:8],mean,na.rm=TRUE)
+sapply(x[2:8],sd,na.rm=TRUE)
+
+x.m<-subset(x,性別==1)
+x.f<-subset(x,性別==2)
+x.m
+x.f
+
+sapply(x.m[2:8],min,na.rm=TRUE)
+sapply(x.m[2:8],max,na.rm=TRUE)
+sapply(x.m[2:8],mean,na.rm=TRUE)
+sapply(x.m[2:8],sd,na.rm=TRUE)
+
+by(x[3:8],x$性別,colMeans)
+

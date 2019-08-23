@@ -63,3 +63,39 @@ x[v1]
 x[v2]
 x2 <- x[v2]
 x2
+max(x)
+x <- read.csv("練習.csv",header=TRUE,fileEncoding="UTF-8")#
+x
+max(x)
+min(x)
+min(x$'年齢')
+min(x$'年齢')
+min(x[3])
+min(x$b1)
+min(x$年齢)
+min(x$b1, na.rm=TRUE)
+max(x$b1, na.rm=TRUE)
+mean(x$年齢)
+mean(x$年齢)
+sd(x$年齢)
+mean(x[2:7],na.rm=TRUE)
+colmean(x[2:7],na.rm=TRUE)
+colMeans(x[2:7],na.rm=TRUE)
+supply(x[2:7],mean,na.rm=TRUE)
+supply(x[2:7],colMeans,na.rm=TRUE)
+sd(x[2:7],na.rm=TRUE)
+sapply(x[2:7],na.rm=TRUE)
+sapply(x[2:7],sd,na.rm=TRUE)
+sapply(x[2:8],min,na.rm=TRUE)
+sapply(x[2:8],max,na.rm=TRUE)
+sapply(x[2:8],mean,na.rm=TRUE)
+sapply(x[2:8],sd,na.rm=TRUE)
+x.m<-subset(x,性別==1)
+x.f<-subset(x,性別==2)
+x.m
+x.f
+sapply(x.m[2:8],min,na.rm=TRUE)
+sapply(x.m[2:8],max,na.rm=TRUE)
+sapply(x.m[2:8],mean,na.rm=TRUE)
+sapply(x.m[2:8],sd,na.rm=TRUE)
+by(x[3:8],x$性別,colMeans)
