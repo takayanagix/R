@@ -52,3 +52,14 @@ sapply(x.m[2:8],sd,na.rm=TRUE)
 
 by(x[3:8],x$性別,colMeans)
 
+// psych
+summary(x)
+
+library(psych)
+describe(x)
+
+describe
+?describe
+
+describeBy(x,x$性別)
+
