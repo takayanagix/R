@@ -18,10 +18,18 @@ ls()
 x <- read.csv("sam2.xls",header=TRUE,fileEncoding="UTF-8")
 x
 x <- read.csv("sam2.xls",header=TRUE,fileEncoding="UTF-8")
-x <- read.csv("sam2.xls",header=TRUE,fileEncoding="UTF-8")
-x <- read.csv("sam2.xls",header=TRUE,fileEncoding="UTF-8")
-x <- read.csv("sam2.csv",header=TRUE,fileEncoding="UTF-8")
 x <- read.csv("sam2.csv",header=TRUE,fileEncoding="UTF-8")
 x <- read.xls("sam2.xls",header=TRUE,fileEncoding="UTF-8")
 x <- read.csv("sam2.xls",header=TRUE,fileEncoding="UTF-8")
-x <- read.csv("sam2.xls",header=TRUE,fileEncoding="UTF-8")
+x <- read.csv("book8.csv",header=TRUE,fileEncoding="UTF-8")
+x
+x <- read.csv("sum2.csv",header=TRUE,fileEncoding="UTF-8")
+x
+x
+x <- read.csv("sum2.csv",header=TRUE,fileEncoding="UTF-8")
+x
+x <- read.csv("book8.csv",header=TRUE,fileEncoding="UTF-8")
+x
+x <- read.csv("applesum.csv",header=TRUE,fileEncoding="UTF-8")
+x <- read.csv("sam2.csv",header=TRUE,fileEncoding="UTF-8")
+x
