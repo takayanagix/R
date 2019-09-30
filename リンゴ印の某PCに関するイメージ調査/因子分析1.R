@@ -26,3 +26,11 @@ round(cor(xb, use="complete.obs"),3)
 // 因子分析1
 library(psych)
 VSS.scree(x)
+
+x.cor <-cor(x, use="complete.obs")
+eigen(x.cor)
+
+fa.parallel(x)
+
+f1 <-fa(x, nfactors=3, fm="pa", rotate="promax")
+print(f1, sort=TRUE, digit=3)
